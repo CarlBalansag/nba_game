@@ -1,0 +1,241 @@
+{
+    "Teams": {
+        "Celtics": [
+            {
+            "City": "Boston",
+            "Wins": 57,
+            "Loss": 25
+            }
+        ],
+        
+        "76ers": [
+            {
+            "City": "Philadelphia",
+            "Wins": 54,
+            "Loss": 28
+            }
+        ],
+
+        "Knicks": [
+            {
+            "City": "New York",
+            "Wins": 47,
+            "Loss": 35
+            }
+        ],
+
+        "Nets": [
+            {
+            "City": "Brooklyn",
+            "Wins": 45,
+            "Loss": 37
+            }
+        ],
+
+        "Raptors": [
+            {
+            "City": "Toronto",
+            "Wins": 41,
+            "Loss": 41
+            }
+        ],
+
+        "Bucks": [
+            {
+            "City": "Milwaukee",
+            "Wins": 58,
+            "Loss": 24
+            }
+        ],
+
+        "Cavaliers": [
+            {
+            "City": "Cleveland",
+            "Wins": 51,
+            "Loss": 31
+            }
+        ],
+
+        "Bulls": [
+            {
+            "City": "Chicago",
+            "Wins": 40,
+            "Loss": 42
+            }
+        ],
+
+        "Pacers": [
+            {
+            "City": "Indiana",
+            "Wins": 35,
+            "Loss": 47
+            }
+        ],
+
+        "Pistons": [
+            {
+            "City": "Detroit",
+            "Wins": 17,
+            "Loss": 65
+            }
+        ],
+        "Heat": [
+            {
+            "City": "Miami",
+            "Wins": 44,
+            "Loss": 38
+            }
+        ],
+        
+        "Hawks": [
+            {
+            "City": "Atlanta",
+            "Wins": 41,
+            "Loss": 41
+            }
+        ],
+
+        "Wizards": [
+            {
+            "City": "Washington",
+            "Wins": 35,
+            "Loss": 47
+            }
+        ],
+
+        "Magic": [
+            {
+            "City": "Orlando",
+            "Wins": 34,
+            "Loss": 48
+            }
+        ],
+
+        "Hornets": [
+            {
+            "City": "Charlotte",
+            "Wins": 27,
+            "Loss": 55
+            }
+        ],
+
+        "Nuggets": [
+            {
+            "City": "Denver",
+            "Wins": 53,
+            "Loss": 29
+            }
+        ],
+
+        "Timberwolves": [
+            {
+            "City": "Minnesota",
+            "Wins": 42,
+            "Loss": 40
+            }
+        ],
+
+        "Thunder": [
+            {
+            "City": "Oklahoma City",
+            "Wins": 40,
+            "Loss": 42
+            }
+        ],
+
+        "Jazz": [
+            {
+            "City": "Utah",
+            "Wins": 37,
+            "Loss": 45
+            }
+        ],
+
+        "Trail Blazers": [
+            {
+            "City": "Portland",
+            "Wins": 33,
+            "Loss": 49
+            }
+        ],
+        "Kings": [
+            {
+            "City": "Sacramento",
+            "Wins": 48,
+            "Loss": 34
+            }
+        ],
+        
+        "Suns": [
+            {
+            "City": "Phoenix",
+            "Wins": 45,
+            "Loss": 37
+            }
+        ],
+
+        "Clippers": [
+            {
+            "City": "Los Angeles",
+            "Wins": 44,
+            "Loss": 38
+            }
+        ],
+
+        "Warriors": [
+            {
+            "City": "Golden State",
+            "Wins": 44,
+            "Loss": 38
+            }
+        ],
+
+        "Lakers": [
+            {
+            "City": "Los Angeles",
+            "Wins": 43,
+            "Loss": 39
+            }
+        ],
+
+        "Grizzlies": [
+            {
+            "City": "Memphis",
+            "Wins": 51,
+            "Loss": 31
+            }
+        ],
+
+        "Pelicans": [
+            {
+            "City": "New Orleans",
+            "Wins": 42,
+            "Loss": 40
+            }
+        ],
+
+        "Mavericks": [
+            {
+            "City": "Dallas",
+            "Wins": 38,
+            "Loss": 44
+            }
+        ],
+
+        "Rockets": [
+            {
+            "City": "Houston",
+            "Wins": 22,
+            "Loss": 60
+            }
+        ],
+
+        "Spurs": [
+            {
+            "City": "San Antonio",
+            "Wins": 22,
+            "Loss": 60
+            }
+        ]
+    }
+}

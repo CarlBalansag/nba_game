@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/navbar';
 import Teams from '../components/teams';
+import data from '../data/pastSeason.json'
 
 function PastSeason() {
     return (
