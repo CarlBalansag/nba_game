@@ -3,12 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Switch, Link} from 'react-route
 import { useNavigate } from 'react-router-dom';
 import Maintenance from '../pages/Maintenance';
 import Count from "../components/Count"
+import Live from '../pages/Live';
 
 function Navbar() {
-
-    function maintenance(e){
-        navigate('maintenance')
-    }
 
     const navigate = useNavigate();
 
@@ -22,16 +19,13 @@ function Navbar() {
                         <div>
                         <ul className="p-2 md:p-2 lg:p-2 xl:p-2 2xl:p-2 text-sm font-medium flex mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 sm:flex-row sm:space-x-8 sm:mt-0 sm:border-0  flex-row space-x-8 mt-0 border-0">
                             <li>
-                            <Link className='navbar-clicks aria-current="page"'>Home</Link>
-                            </li>
-                            <li>
-                            <Link to="/Maintenance" className='navbar-clicks'>Live</Link>
+                            <Link to="/Live" className='navbar-clicks'>Live</Link>
                             </li>
                             <li>
                             <Link to="/Maintenance" className='navbar-clicks'>Schedule</Link>
                             </li>
                             <li>
-                            <Link to="/Maintenance" className='navbar-clicks'>Teams</Link>
+                            <Link to="/pastSeason" className='navbar-clicks'>Past Season</Link>
                             </li>
                             <li>
                             <Link to="/Maintenance" className='navbar-clicks'>Setting</Link>

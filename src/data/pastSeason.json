@@ -4,7 +4,8 @@
             {
             "City": "Boston",
             "Wins": 57,
-            "Loss": 25
+            "Loss": 25,
+            "Coaches": "Joe Mazzulla"
             }
         ],
         
@@ -12,7 +13,8 @@
             {
             "City": "Philadelphia",
             "Wins": 54,
-            "Loss": 28
+            "Loss": 28,
+            "Coaches": "Nick nurse"
             }
         ],
 
@@ -20,7 +22,8 @@
             {
             "City": "New York",
             "Wins": 47,
-            "Loss": 35
+            "Loss": 35,
+            "Coaches": "Tom Thibodeau"
             }
         ],
 
@@ -28,7 +31,8 @@
             {
             "City": "Brooklyn",
             "Wins": 45,
-            "Loss": 37
+            "Loss": 37,
+            "Coaches": "Jacque Vaughn"
             }
         ],
 
@@ -36,7 +40,8 @@
             {
             "City": "Toronto",
             "Wins": 41,
-            "Loss": 41
+            "Loss": 41,
+            "Coaches": "Darko Rajakovic"
             }
         ],
 
@@ -44,7 +49,8 @@
             {
             "City": "Milwaukee",
             "Wins": 58,
-            "Loss": 24
+            "Loss": 24,
+            "Coaches": "Adrian Griffin"
             }
         ],
 
@@ -52,7 +58,8 @@
             {
             "City": "Cleveland",
             "Wins": 51,
-            "Loss": 31
+            "Loss": 31,
+            "Coaches": "J.B Bickerstaff"
             }
         ],
 
@@ -60,7 +67,8 @@
             {
             "City": "Chicago",
             "Wins": 40,
-            "Loss": 42
+            "Loss": 42,
+            "Coaches": "Billy Donovan"
             }
         ],
 
@@ -68,7 +76,8 @@
             {
             "City": "Indiana",
             "Wins": 35,
-            "Loss": 47
+            "Loss": 47,
+            "Coaches": "Rick Carlisle"
             }
         ],
 
@@ -76,14 +85,16 @@
             {
             "City": "Detroit",
             "Wins": 17,
-            "Loss": 65
+            "Loss": 65,
+            "Coaches": "Monty Williams"
             }
         ],
         "Heat": [
             {
             "City": "Miami",
             "Wins": 44,
-            "Loss": 38
+            "Loss": 38,
+            "Coaches": "Erik Spoelstra"
             }
         ],
         
@@ -91,7 +102,8 @@
             {
             "City": "Atlanta",
             "Wins": 41,
-            "Loss": 41
+            "Loss": 41,
+            "Coaches": "Quin Snyder"
             }
         ],
 
@@ -99,7 +111,8 @@
             {
             "City": "Washington",
             "Wins": 35,
-            "Loss": 47
+            "Loss": 47,
+            "Coaches": "Wes Unseld Jr."
             }
         ],
 
@@ -107,7 +120,8 @@
             {
             "City": "Orlando",
             "Wins": 34,
-            "Loss": 48
+            "Loss": 48,
+            "Coaches": "Jamahl Mosley"
             }
         ],
 
@@ -115,7 +129,8 @@
             {
             "City": "Charlotte",
             "Wins": 27,
-            "Loss": 55
+            "Loss": 55,
+            "Coaches": "Steve Clifford"
             }
         ],
 
@@ -123,7 +138,8 @@
             {
             "City": "Denver",
             "Wins": 53,
-            "Loss": 29
+            "Loss": 29,
+            "Coaches": "Michael Malone"
             }
         ],
 
@@ -131,7 +147,8 @@
             {
             "City": "Minnesota",
             "Wins": 42,
-            "Loss": 40
+            "Loss": 40,
+            "Coaches": "Chris Finch"
             }
         ],
 
@@ -139,7 +156,8 @@
             {
             "City": "Oklahoma City",
             "Wins": 40,
-            "Loss": 42
+            "Loss": 42,
+            "Coaches": "Mark Daigneault"
             }
         ],
 
@@ -147,7 +165,8 @@
             {
             "City": "Utah",
             "Wins": 37,
-            "Loss": 45
+            "Loss": 45,
+            "Coaches": "Will Hardy"
             }
         ],
 
@@ -155,14 +174,16 @@
             {
             "City": "Portland",
             "Wins": 33,
-            "Loss": 49
+            "Loss": 49,
+            "Coaches": "Chauncey Billups"
             }
         ],
         "Kings": [
             {
             "City": "Sacramento",
             "Wins": 48,
-            "Loss": 34
+            "Loss": 34,
+            "Coaches": "Mike Brown"
             }
         ],
         
@@ -170,7 +191,8 @@
             {
             "City": "Phoenix",
             "Wins": 45,
-            "Loss": 37
+            "Loss": 37,
+            "Coaches": "Frank Vogel"
             }
         ],
 
@@ -178,7 +200,8 @@
             {
             "City": "Los Angeles",
             "Wins": 44,
-            "Loss": 38
+            "Loss": 38,
+            "Coaches": "Tyronn Lue"
             }
         ],
 
@@ -186,7 +209,8 @@
             {
             "City": "Golden State",
             "Wins": 44,
-            "Loss": 38
+            "Loss": 38,
+            "Coaches": "Steve Kerr"
             }
         ],
 
@@ -194,7 +218,8 @@
             {
             "City": "Los Angeles",
             "Wins": 43,
-            "Loss": 39
+            "Loss": 39,
+            "Coaches": "Darvin Ham"
             }
         ],
 
@@ -202,7 +227,8 @@
             {
             "City": "Memphis",
             "Wins": 51,
-            "Loss": 31
+            "Loss": 31,
+            "Coaches": "Taylor Jenkins"
             }
         ],
 
@@ -210,7 +236,8 @@
             {
             "City": "New Orleans",
             "Wins": 42,
-            "Loss": 40
+            "Loss": 40,
+            "Coaches": "Willie Green"
             }
         ],
 
@@ -218,7 +245,8 @@
             {
             "City": "Dallas",
             "Wins": 38,
-            "Loss": 44
+            "Loss": 44,
+            "Coaches": "Jason Kidd"
             }
         ],
 
@@ -226,7 +254,8 @@
             {
             "City": "Houston",
             "Wins": 22,
-            "Loss": 60
+            "Loss": 60,
+            "Coaches": "Ime Udoka"
             }
         ],
 
@@ -234,7 +263,8 @@
             {
             "City": "San Antonio",
             "Wins": 22,
-            "Loss": 60
+            "Loss": 60,
+            "Coaches": "Gregg Popovich"
             }
         ]
     }

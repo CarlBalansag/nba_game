@@ -3,20 +3,10 @@ import Navbar from '../components/navbar';
 import { useNavigate } from 'react-router-dom';
 import Maintenance from './Maintenance';
 import Countdown from '../components/Countdown'
+import Live from './Live';
 
-const date = new Date();
-let day = date.getDate();
-let month = date.getMonth() + 1;
-let year = date.getFullYear();
-let currentDate = `${month}/${day}/${year}`;
-console.log(currentDate)
-const seasonStart = '9/24/2023'
-
-let time = true
-if (currentDate === seasonStart) {
-    time = true
-} else {
-    time = false
+function isDateBeforeToday(date) {
+    return new Date(date.toDateString()) < new Date(new Date().toDateString());
 }
 
 export default function Home() {
@@ -24,8 +14,7 @@ export default function Home() {
 
     return (
         <>
-        <Navbar />
-        {time ? <Home /> : <Countdown />}
+        {isDateBeforeToday(new Date(2016, 11, 16)) ? <Live /> : <Countdown />}
         </>
     );
 }
