@@ -16,6 +16,7 @@ function App() {
           <Route path='/Countdown' element={<Countdown />} />
           <Route path='/PastSeason' element={<PastSeason />} />
           <Route path='/Live' element={<Live />} />
+          <Route path='/PastSeason' element={<PastSeason />} />
         </Routes>
       </BrowserRouter>
       <Router>

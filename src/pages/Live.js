@@ -46,7 +46,7 @@ function Live_visualize(props) {
                     <img className="w-20 ml-10 mt-5 mb-5" src="https://media-4.api-sports.io/basketball/teams/157.png"/>
                 </div>
             </div>
-            
+
         </div>
         </>
     );
@@ -55,17 +55,13 @@ function Live_visualize(props) {
 export default Live;
 
 {/* 
-
 ?????????????? DIFFERENT ADD 2023 Statistics on pastseason page??????????????
-
 Using Tank01 Fabtasy Stats API on rapid API, fetch for GET DAILY SCHEDULE WITH CURRENT DATA
     Figure out how to get dates in this format 20231119 {year}{month}{day} <--- Parameter for the fetch
-
 For each result make a compnent for DailyGames. Make a dailyGames.js component
     From each object we need 
         HOME TEAM ID
         AWAY TEAM ID
-
         Get that id take it into API-BASKETBALL API and fetch [teams information] and the parameter is ID and season is going to be this year plus 1 [2023-2024]
             from this we get the team ID
         then FETCH teams statistics parameter is current data in {year}-{month}-{day} format and team ID from the last fetch we got season is going to be [2023-2024]
@@ -111,7 +107,7 @@ function Live(){
         <Navbar />
         <div>
             {todaysGame?.map(item => {
-                    
+
                     return <Live_visualize teamOne={item.home} teamTwo={item.away}/> 
             })} 
         </div>
