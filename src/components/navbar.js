@@ -6,12 +6,6 @@ import Count from "../components/Count"
 
 function Navbar() {
 
-    function maintenance(e){
-        navigate('maintenance')
-    }
-
-    const navigate = useNavigate();
-
     return (
         <>
             
@@ -34,7 +28,7 @@ function Navbar() {
                             <Link to="/Maintenance" className='navbar-clicks'>Teams</Link>
                             </li>
                             <li>
-                            <Link to="/Maintenance" className='navbar-clicks'>Setting</Link>
+                            <Link to="/Settings" className='navbar-clicks'>Setting</Link>
                             </li>
                         </ul>
                         </div>
