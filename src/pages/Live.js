@@ -37,7 +37,7 @@ function Live(){
             .then(res => res.json())
             // .then(data => console.log(data.response))
             .then(data => setTodaysGame(data.response))
-    },0);
+    },[]);
 
     const gamesToday = todaysGame === undefined
     console.log(gamesToday)
@@ -61,7 +61,7 @@ function Live(){
                 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:gap-y-4'>
                 
                 {todaysGame?.map(item => {
-                    return <LiveVisualize teamHome={item.teams.home.name} teamAway={item.teams.away.name} homeImg={item.teams.home.logo} awayImg={item.teams.away.logo}/>
+                    return <LiveVisualize key={item.teams.home.name} teamHome={item.teams.home.name} teamAway={item.teams.away.name} homeImg={item.teams.home.logo} awayImg={item.teams.away.logo}/>
                 })}
                 </div>
         }

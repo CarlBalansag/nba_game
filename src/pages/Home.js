@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import { useNavigate } from 'react-router-dom';
 import Maintenance from './Maintenance';
 import Countdown from '../components/Countdown'
+import Live from './Live';
 
 const date = new Date();
 let day = date.getDate();
@@ -19,13 +20,14 @@ if (currentDate === seasonStart) {
     time = false
 }
 
+console.log(time)
+
 export default function Home() {
     const navigate = useNavigate();
 
     return (
         <>
-        <Navbar />
-        {time ? <Home /> : <Countdown />}
+        {time ? <Countdown /> : <Live />}
         </>
     );
 }

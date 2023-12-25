@@ -30,7 +30,7 @@ function PastSeason() {
 
     return (
         <>
-        <Navbar />
+        <Navbar dark=/>
 
         <p className='text-white pb-5 flex justify-center text-3xl'>2022-2023 NBA Season</p>
 

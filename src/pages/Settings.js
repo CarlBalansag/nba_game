@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 
 function Settings(props) {
 
+    const [darkMode, setDarkMode] = React.useState(true)
 
 
     return (
