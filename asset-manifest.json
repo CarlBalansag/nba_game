@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/nba_game/static/css/main.6b127840.css",
+    "main.js": "/nba_game/static/js/main.f0de5738.js",
+    "static/js/787.660c7e9f.chunk.js": "/nba_game/static/js/787.660c7e9f.chunk.js",
+    "static/media/fraction.cjs": "/nba_game/static/media/fraction.a641cd80e2310e4e5e60.cjs",
+    "index.html": "/nba_game/index.html",
+    "static/media/index.cjs": "/nba_game/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.6b127840.css.map": "/nba_game/static/css/main.6b127840.css.map",
+    "main.f0de5738.js.map": "/nba_game/static/js/main.f0de5738.js.map",
+    "787.660c7e9f.chunk.js.map": "/nba_game/static/js/787.660c7e9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b127840.css",
+    "static/js/main.f0de5738.js"
+  ]
+}
