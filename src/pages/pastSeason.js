@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect, useContext } from 'react';
 import Navbar from '../components/navbar';
 import Teams from '../components/teams';
-import NoLiveGamesToday from '../components/noLiveGames';
-
 
 const url = 'https://api-nba-v1.p.rapidapi.com/standings?league=standard&season=2022';
 const options = {
@@ -14,12 +12,9 @@ headers: {
 };
 
 function PastSeason() {
-
     const [stats, setStats] = useState([]);
 
     useEffect(() => {
-        
-
         fetch(url, options)
         .then(res => res.json())
         .then(data => setStats(data.response))
@@ -27,18 +22,19 @@ function PastSeason() {
         
     }, [])
 
-
     return (
         <>
-        <Navbar dark=/>
+            <Navbar/>
+            <p className='text-white pb-5 flex justify-center text-3xl'>2022-2023 NBA Season</p>
 
-        <p className='text-white pb-5 flex justify-center text-3xl'>2022-2023 NBA Season</p>
-
-        <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 gap-y-10 lg:grid-cols-3 3xl:grid-cols-4'>
-            {stats?.map(item => {
-                return <Teams name={item.team.name} img={item.team.logo} win={item.win.total} loss={item.loss.total} />
-            })}
-        </div>
+            <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 gap-y-10 lg:grid-cols-3 3xl:grid-cols-4'>
+                {stats?.map(item => {
+                    return <Teams name={item.team.name} img={item.team.logo} win={item.win.total} loss={item.loss.total} />
+                })}
+            </div>
+            {/* <div className="sticky bottom-4 ml-4">
+                <DarkModeLightMode/>
+            </div> */}
         </>
     );
 }

@@ -5,7 +5,7 @@ function Maintenance() {
     return (
         <>
         <Navbar />
-        <h1>Under Maintanance please comeback later</h1>
+        <h1 className='text-white'>Under Maintanance please comeback later</h1>
         </>
     );
 }

@@ -6,8 +6,11 @@ import Home from './pages/Home';
 import PastSeason from './pages/pastSeason';
 import Live from './pages/Live';
 import Settings from './pages/Settings';
+import { useState } from 'react';
 
 function App() {
+
+  
   return (
     <>
       <BrowserRouter>

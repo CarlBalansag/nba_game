@@ -11,7 +11,7 @@ function Teams(props) {
             
             <div id="logo" className="">
                 <p className="text-white text-lg pl-36 sm:pl-20 md:ml-16 xl:pl-24 2xl:ml-7 mt-4">{props.name}</p>
-                <img className="w-32 mt-2 ml-32 sm:ml-16 md:ml-32 xl:ml-32 2xl:ml-32 sm:w-28 sm:mt-2 sm:mr-11 " src={props.img} alt="NBA LOGO" />
+                <img className="w-28 mt-2 ml-32 sm:ml-16 md:ml-32 xl:ml-32 2xl:ml-32 sm:w-28 sm:mt-2 sm:mr-11 " src={props.img} alt="NBA LOGO" />
             </div>
             <div id="info" className="h-20 grid grid-cols-2 gap-2">
                 <div className="">

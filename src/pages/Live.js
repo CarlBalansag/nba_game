@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { DarkContext } from '../DarkContext';
 import Navbar from '../components/navbar';
 import { data } from 'autoprefixer';
 import NoLiveGamesToday from '../components/noLiveGames';
@@ -23,29 +24,25 @@ const APIBasketballOption = {
 };
 
 function Live(){
-    console.log(`Current season year = ${current_season_year}`)
-    console.log(`Date = ${date}`)
+
+    console.log(`Date: ${date}`)
     const url_schedule = `https://api-basketball.p.rapidapi.com/games?season=${current_season_year}&league=12&date=${date}`
     const [todaysGame, setTodaysGame] = useState();
     const [homeTeamStats, setHomeTeamStats] = useState();
     const [awayTeamStats, setAwayTeamStats] = useState();
 
-
     useEffect(() => {
-        console.log("Getting all Live Games today")
         fetch(url_schedule, APIBasketballOption)
             .then(res => res.json())
-            // .then(data => console.log(data.response))
             .then(data => setTodaysGame(data.response))
     },[]);
 
     const gamesToday = todaysGame === undefined
-    console.log(gamesToday)
-    console.log(todaysGame)
 
     return(
         <>
-        <Navbar />
+        <div className="w-full h-[1200px]">
+        <Navbar/>
             <p className='
                 text-white pb-10 flex justify-center text-3xl'
             >Games Today {month}-{day}-{year}</p>
@@ -65,7 +62,12 @@ function Live(){
                 })}
                 </div>
         }
+        </div>
+        {/* <div className="sticky bottom-4 ml-4">
+                <DarkModeLightMode/>
+        </div> */}
         </>
+        
     )
 };
 
